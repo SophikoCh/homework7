@@ -17,13 +17,21 @@ body {
     height: auto;
 }
 
-.wrapper {
-    margin: 0 auto;
-    display: flex;
-    padding: 105px;
-    justify-content: space-between;
+header {
     background-color: var(--dark-blue, #172755);
 }
+
+.wrapper {
+    width: 1180px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
 
 .logo {
     width: 184.023px;
@@ -36,6 +44,8 @@ body {
 .headermenu {
     display: flex;
     align-items: center;
+    margin-left: 82px;
+
 }
 
 .headermenu ul {
@@ -71,19 +81,24 @@ body {
 }
 
 .singupicon {
-    height: 40px;
     padding: 10px 53px;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
     border-radius: 68px;
     border: 1px solid #465b95;
+
 }
 
 .cont {
+    margin: 0 auto;
+    width: 1181px;
+    height: 40px;
     display: flex;
-    gap: 40px;
+    align-items: center;
+
 }
+
 
 .abs-img {
     width: 500px;
@@ -104,6 +119,7 @@ body {
     align-items: center;
     background-color: var(--dark-blue, #172755);
 }
+
 
 .business {
     width: 550px;
@@ -437,15 +453,30 @@ body {
 }
 
 .pricing {
-    margin-top: 131px;
-    margin-bottom: 100px;
+    margin-top: 272px;
+    margin-bottom: 170px;
+    position: relative;
+}
+
+.pricing svg {
+    position: absolute;
+    width: 1600px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .plans {
-    margin-top: -990px;
     z-index: 1;
+    position: relative;
+    
+    
 }
-
+.plansheader {
+    margin: 0 auto;
+    margin-top: 270px;
+}
 .plansheader h2 {
     width: 620px;
     height: 53px;
@@ -457,6 +488,8 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 272px;
+ 
 }
 
 .plansheader p {
@@ -470,7 +503,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    margin: 0 auto;
+    margin-top: 272px auto;
 }
 
 .planscount {
@@ -480,7 +513,7 @@ body {
     gap: 80px;
     width: 1180px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .starter {
@@ -738,14 +771,14 @@ body {
 
 footer {
 
-    margin-top: 169px;
-    z-index: 1;
+    margin-top: 150px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
     width: 1180px;
-    height: 94px;
+    align-items: center;
+
+
 }
 
 
